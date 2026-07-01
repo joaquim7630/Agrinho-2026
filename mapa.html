@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Mapa da Fazenda</title>
+
+<link rel="stylesheet"
+href="css/styles.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🗺️ Fazenda Inteligente</h1>
+
+</header>
+
+
+<nav class="navbar">
+
+<div class="nav-container">
+
+<a href="index.html">
+🏠 Planejamento
+</a>
+
+<a href="historico.html">
+📜 Histórico
+</a>
+
+<a class="active">
+🗺️ Fazenda
+</a>
+
+<a href="relatorio.html">
+📄 Relatório
+</a>
+
+</div>
+
+</nav>
+
+
+<section class="card">
+
+<h2>Mapa da Fazenda</h2>
+
+<label>
+Endereço do terreno
+</label>
+
+<input
+type="text"
+id="endereco"
+placeholder="Ex.: Rua, cidade, estado"
+>
+
+<div class="acoes-mapa">
+
+<button id="buscarEndereco">
+Buscar endereço
+</button>
+
+<button id="usarLocalizacao">
+Usar minha localização
+</button>
+
+</div>
+
+
+<div id="map"></div>
+
+</section>
+
+
+<section class="card">
+
+<h2>Condições atuais</h2>
+
+<p>📍 Local:
+<span id="cidade"></span>
+</p>
+
+<p>🌡️ Temperatura:
+<span id="temp"></span>
+</p>
+
+<p>☁️ Clima:
+<span id="clima"></span>
+</p>
+
+<p>💨 Vento:
+<span id="vento"></span>
+</p>
+
+</section>
+
+
+<script src="js/mapa.js"></script>
+
+</body>
+
+</html>

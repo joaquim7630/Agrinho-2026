@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>GreenCrop Planner</title>
+
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🌱 GreenCrop Planner</h1>
+
+<p>
+Planejamento agrícola sustentável
+</p>
+
+<div id="nivel">
+Produtor Iniciante
+</div>
+
+</header>
+
+<nav class="navbar">
+
+<div class="nav-container">
+
+<a class="active" href="index.html">
+🏠 Planejamento
+</a>
+
+<a href="historico.html">
+📜 Histórico
+</a>
+
+<a href="mapa.html">
+🗺️ Fazenda
+</a>
+
+<a href="relatorio.html">
+📄 Relatório
+</a>
+
+<button id="limparHistorico">
+🧹 Limpar histórico
+</button>
+
+</div>
+
+</nav>
+
+<main>
+
+<section class="card">
+
+<h2>Planejamento</h2>
+
+
+<label>Tipo de Solo</label>
+<select id="solo"></select>
+
+<label>Cultura</label>
+<select id="cultura"></select>
+
+<label>Uso de Insumos</label>
+<select id="insumos"></select>
+
+<label>Uso de Agrotóxicos</label>
+<select id="agrotoxicos"></select>
+
+
+<label>Água Disponível (%)</label>
+
+<input
+type="range"
+min="10"
+max="100"
+value="70"
+id="agua"
+>
+
+<div id="valorAgua">
+70%
+</div>
+
+
+<button id="calcular">
+
+Calcular Produção
+
+</button>
+
+</section>
+
+
+
+<section class="card">
+
+<h2>Resultado</h2>
+
+<p>Sustentabilidade:
+<span id="sust"></span></p>
+
+<p>Risco:
+<span id="risco"></span></p>
+
+<p>Produção:
+<span id="producao"></span></p>
+
+<p>🌍 Impacto ambiental:
+<span id="impacto"></span></p>
+
+<p>🌦️ Evento climático + pragas:
+<span id="evento"></span></p>
+
+<p>🧠 Explicação:</p>
+<div id="explicacao"></div>
+
+</section>
+
+</main>
+
+
+<section class="card">
+
+<h2>Como funciona a calculadora</h2>
+
+<table>
+
+<tr>
+
+<th>Parâmetro</th>
+
+<th>Função</th>
+
+</tr>
+
+<tr>
+
+<td>Solo</td>
+
+<td>Influência na absorção e fertilidade</td>
+
+</tr>
+
+<tr>
+
+<td>Cultura</td>
+
+<td>Produção base agrícola</td>
+
+</tr>
+
+<tr>
+
+<td>Clima</td>
+
+<td>Impacta crescimento</td>
+
+</tr>
+
+<tr>
+
+<td>Água</td>
+
+<td>Equilibra produtividade e sustentabilidade</td>
+
+</tr>
+
+<tr>
+
+<td>Sustentabilidade</td>
+
+<td>Quanto mais próximo de 70% de água, melhor</td>
+
+</tr>
+
+</table>
+
+</section>
+
+
+
+<section class="card">
+
+<h2>Histórico</h2>
+
+<div id="historico">
+
+Nenhuma decisão ainda
+
+</div>
+
+</section>
+
+
+
+<script src="js/dados.js"></script>
+<script src="js/calculadora.js"></script>
+<script src="js/clima.js"></script>
+<script src="js/pragas.js"></script>
+<script src="js/historico.js"></script>
+<script src="js/niveis.js"></script>
+<script src="js/explicacao.js"></script>
+<script src="js/app.js"></script>
+
+
+</body>
+
+</html>
