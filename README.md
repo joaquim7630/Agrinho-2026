@@ -1,11 +1,10 @@
-# -GreenCrop-Planner
+# - SIMULADOR AGRICOLA
+Seu projeto  SIMULADOR AGRICOLA virou um simulador agrícola educativo com foco em tomada de decisão rural, sustentabilidade e análise de cenários. A ideia central do sistema é permitir que o produtor (ou aluno) altere condições agrícolas e veja como essas escolhas impactam produção, risco e sustentabilidade.
 
-Seu projeto GreenCrop Planner virou um simulador agrícola educativo com foco em tomada de decisão rural, sustentabilidade e análise de cenários. A ideia central do sistema é permitir que o produtor (ou aluno) altere condições agrícolas e veja como essas escolhas impactam produção, risco e sustentabilidade.
-
-🌱 GreenCrop Planner — Simulador Inteligente de Planejamento Agrícola
+🌱  SIMULADOR AGRICOLA — Simulador Inteligente de Planejamento Agrícola
 Objetivo do sistema
 
-O GreenCrop Planner foi desenvolvido para simular cenários agrícolas e auxiliar no entendimento de como fatores ambientais e decisões de manejo influenciam o desempenho da produção.
+O  SIMULADOR AGRICOLA foi desenvolvido para simular cenários agrícolas e auxiliar no entendimento de como fatores ambientais e decisões de manejo influenciam o desempenho da produção.
 
 O sistema não tenta prever safras reais, mas sim simular relações próximas da realidade agrícola para fins de análise, aprendizado e comparação de estratégias.
 
